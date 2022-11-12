@@ -1,0 +1,20 @@
+.campo-texto {
+    margin: 50px 0;
+    
+}
+
+
+
+.campo-texto input {
+    background-color: #000;
+    opacity: 90%;
+    width: 90%;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    border-bottom-color: white;
+    border-bottom-width: 2px;
+    border-bottom-style:solid;
+    color: white;
+    font-size: 20px;
+}

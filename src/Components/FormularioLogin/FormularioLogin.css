@@ -1,0 +1,27 @@
+.formularioLogin {
+    width: 25vw;
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+    float: right;
+    opacity: 90%;
+
+
+}
+
+.formularioLogin form{
+    align-items: center;
+    max-width: 80%;
+    background-color: #000;
+    opacity: 90%;
+    padding: 36px 64px;
+    margin: 0 auto;
+    width: 50%; /* Altere para o valor da largura desejada. */
+    height: 50%;    
+}
+
+.formularioLogin h2{
+    color: aliceblue;
+    text-align: center;
+    font-family: Hat Display;
+}
