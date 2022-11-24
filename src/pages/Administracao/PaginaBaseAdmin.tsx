@@ -19,7 +19,10 @@ const PaginaBaseAdmin = () => {
                 flexDirection="column"
                 marginX={10}
                 bgcolor='#cfe8fc'>
-                <Box display={"flex"} paddingTop={theme.spacing(1)} paddingLeft={theme.spacing(1)} borderRadius='20px'>
+                <Box display={"flex"} 
+                paddingTop={theme.spacing(1)} 
+                paddingLeft={theme.spacing(1)} 
+                borderRadius='20px'>
                     <Typography
                     sx={{fontWeight: 500, fontStyle: "bold"}}> Histórico de Viagens </Typography>
                 </Box>
