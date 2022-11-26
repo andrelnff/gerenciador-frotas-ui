@@ -39,11 +39,6 @@ const TabelaViagens = () => {
                     <TableCell>{viagens.destino}</TableCell>
                     <TableCell>{viagens.multa}</TableCell>
                     <TableCell>{viagens.acidente}</TableCell>
-                    <TableCell>
-                        [<Link to="/">
-                            editar
-                        </Link>]
-                    </TableCell>
                 </TableRow>)}
             </TableBody>
         </Table>

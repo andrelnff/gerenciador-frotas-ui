@@ -1,5 +1,6 @@
-import { TableContainer, Paper, Table, TableHead, TableRow, TableCell, TableBody } from "@mui/material"
+import { TableContainer, Paper, Table, TableHead, TableRow, TableCell, TableBody, Icon} from "@mui/material"
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import http from "../../http";
 import IVeiculo from "../../interfaces/IVeiculo";
 
@@ -26,6 +27,7 @@ const TabelaVeiculos = () => {
                     <TableCell>Chassi</TableCell>
                     <TableCell>Estado Atual</TableCell>
                     <TableCell>Quilometragem</TableCell>
+                    <TableCell>Editar</TableCell>
                 </TableRow>
             </TableHead>
             <TableBody>
@@ -38,6 +40,11 @@ const TabelaVeiculos = () => {
                     <TableCell>{veiculo.chassi}</TableCell>
                     <TableCell>{veiculo.estadoAtual}</TableCell>
                     <TableCell>{veiculo.quilometragem}</TableCell>
+                    <TableCell>
+                        <Link to={`/administracao/veiculos/${veiculo.id}`}>
+                            <Icon>ModeEdit</Icon>
+                        </Link>
+                    </TableCell>
                 </TableRow>)}
             </TableBody>
         </Table>

@@ -24,9 +24,6 @@ const Viagens = () => {
                     <Typography
                     sx={{fontWeight: 500, fontStyle: "bold"}}> Histórico de Viagens </Typography>
                 </Box>
-                <Box marginTop={2}>
-                    <TabelaViagens />
-                </Box>
             </Box>
         </>
     )

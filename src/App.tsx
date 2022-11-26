@@ -15,6 +15,7 @@ function App() {
         <Route path="/administracao" element={<Administracao />} />
         <Route path="/administracao/veiculos" element={<Veiculos />}/>
         <Route path="/administracao/viagens" element={<Viagens />}/>
+        <Route path="/administracao/veiculos/:id" element={<Veiculos />}/>
       </Routes>
     </ThemeProvider>
 
